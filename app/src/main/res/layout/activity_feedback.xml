@@ -40,6 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kaluna"
+        android:textColor="@color/blue_500"
         android:textStyle="bold"
         android:textSize="16sp"
         android:layout_marginTop="16dp"
@@ -53,6 +54,8 @@
         android:layout_height="wrap_content"
         android:text="0901322226076@android.unsri.ac.id"
         android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_500"
         android:layout_marginTop="4dp"
         app:layout_constraintTop_toBottomOf="@+id/txtName"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,6 +68,7 @@
         android:layout_height="wrap_content"
         android:text="Rating Pengalaman Anda"
         android:textStyle="bold"
+        android:textColor="@color/yellow_500"
         android:layout_marginTop="24dp"
         app:layout_constraintTop_toBottomOf="@+id/txtEmail"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,33 +85,103 @@
         app:layout_constraintTop_toBottomOf="@+id/txtRatingLabel"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+    <!-- Teks untuk Menanyakan Pengalaman -->
+    <TextView
+        android:id="@+id/txtFeedbackOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bagaimana pengalaman Anda menggunakan layanan akademik UNSRI? Tinggalkan pendapat Anda!"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- RadioGroup untuk pilihan feedback -->
+    <RadioGroup
+        android:id="@+id/radioGroupFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/txtFeedbackOptions"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Pilihan Responsif -->
+        <RadioButton
+            android:id="@+id/radioResponsif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Responsif"
+            android:buttonTint="@color/blue_500"
+            android:textSize="14sp" />
+
+        <!-- Pilihan Lambat -->
+        <RadioButton
+            android:id="@+id/radioLambat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lambat"
+            android:buttonTint="@color/blue_500"
+            android:layout_marginStart="16dp"
+            android:textSize="14sp" />
+
+        <!-- Pilihan Cepat -->
+        <RadioButton
+            android:id="@+id/radioCepat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cepat"
+            android:buttonTint="@color/blue_500"
+            android:layout_marginStart="16dp"
+            android:textSize="14sp" />
+
+        <!-- Pilihan Lainnya -->
+        <RadioButton
+            android:id="@+id/radioLainnya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lainnya"
+            android:buttonTint="@color/blue_500"
+            android:layout_marginStart="16dp"
+            android:textSize="14sp" />
+    </RadioGroup>
+
 
     <!-- Input Teks untuk Feedback -->
+
+    <!-- Tombol Kirim -->
+
     <EditText
         android:id="@+id/edtFeedback"
         android:layout_width="0dp"
         android:layout_height="150dp"
+        android:layout_marginTop="128dp"
         android:background="@drawable/rounded_border"
-        android:hint="Bagikan pendapat Anda..."
         android:gravity="top"
+        android:hint="Bagikan pendapat Anda..."
         android:padding="16dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintTop_toBottomOf="@+id/ratingBar"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar"
         app:layout_constraintWidth_percent="0.9" />
 
-    <!-- Tombol Kirim -->
     <Button
         android:id="@+id/btnSubmit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kirim"
-        android:backgroundTint="@color/yellow_500"
-        android:textColor="@color/white"
+        android:layout_width="156dp"
+        android:layout_height="48dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/edtFeedback"
+        android:backgroundTint="@color/yellow_500"
+        android:text="Kirim"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/edtFeedback" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
