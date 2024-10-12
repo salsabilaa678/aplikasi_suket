@@ -113,7 +113,7 @@
         app:layout_constraintVertical_bias="0.293" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonajukantranskrip"
         android:layout_width="143dp"
         android:layout_height="40dp"
         android:backgroundTint="@android:color/holo_orange_light"
@@ -148,14 +148,6 @@
         app:layout_constraintVertical_bias="0.499"
         app:srcCompat="@drawable/syarat" />
 
-    <ImageView
-        android:id="@+id/imageView26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/syarat"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="532dp" />
-
     <TextView
         android:id="@+id/textView9"
         android:layout_width="65dp"
@@ -171,20 +163,6 @@
         app:layout_constraintVertical_bias="0.466" />
 
     <TextView
-        android:id="@+id/textView14"
-        android:layout_width="86dp"
-        android:layout_height="26dp"
-        android:text="Prosedur"
-        android:textColor="#FFC727"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.629" />
-
-    <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -197,6 +175,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.511" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/syarat"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="86dp"
+        android:layout_height="26dp"
+        android:text="Prosedur"
+        android:textColor="#FFC727"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
 
     <TextView
         android:id="@+id/textView11"
