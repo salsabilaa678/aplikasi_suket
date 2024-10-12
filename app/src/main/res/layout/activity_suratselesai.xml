@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/img31" />
 
     <ImageButton
-        android:id="@+id/back"
+        android:id="@+id/imagebacksuratselesai"
         android:layout_width="68dp"
         android:layout_height="69dp"
         android:background="#4A8CC4"

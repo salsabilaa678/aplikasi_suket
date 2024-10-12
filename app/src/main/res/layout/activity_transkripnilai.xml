@@ -33,27 +33,43 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Surat Keterangan Aktif"
+        android:text="Transkrip"
         android:textColor="#FFC727"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.365"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.068" />
+        app:layout_constraintVertical_bias="0.072" />
 
-    <ImageView
-        android:id="@+id/imageView21"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Nilai"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.633"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.058"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <ImageButton
+        android:id="@+id/imagebacktranskrip"
+        android:layout_width="42dp"
+        android:layout_height="51dp"
+        android:background="#4A8CC4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
         app:srcCompat="@drawable/back" />
 
     <ImageView
@@ -86,7 +102,7 @@
         android:layout_width="210dp"
         android:layout_height="74dp"
         android:justificationMode="inter_word"
-        android:text="Surat keterangan aktif kuliah adalah surat keterangan yang menjelaskan bahwa mahasiswa berstatus aktif mengikuti perkuliahan di semester tertentu."
+        android:text="Transkrip nilai adalah dokumen yang memuat catatan semua mata kuliah dan nilai mahasiswa."
         android:textColor="#7D8BB7"
         android:textSize="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -119,7 +135,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.276"
-        app:srcCompat="@drawable/stikeraktif" />
+        app:srcCompat="@drawable/stikertranskrip" />
 
     <ImageView
         android:id="@+id/imageView25"
@@ -157,7 +173,7 @@
     <TextView
         android:id="@+id/textView14"
         android:layout_width="86dp"
-        android:layout_height="29dp"
+        android:layout_height="26dp"
         android:text="Prosedur"
         android:textColor="#FFC727"
         android:textSize="20dp"
