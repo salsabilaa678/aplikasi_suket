@@ -23,7 +23,7 @@
         android:layout_height="58dp"
         android:backgroundTint="#ffffff"
         android:padding="12dp"
-        android:text="LOGIN"
+        android:text="DAFTAR"
         android:textColor="#3672A4"
         android:textSize="18sp"
         android:textStyle="bold"
