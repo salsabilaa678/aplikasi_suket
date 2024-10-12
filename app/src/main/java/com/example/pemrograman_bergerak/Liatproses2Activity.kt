@@ -1,6 +1,9 @@
 package com.example.pemrograman_bergerak
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +14,19 @@ class Liatproses2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_liatproses2)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+        val ImageButtonA = findViewById<ImageButton>(R.id.ImageButton1)
+
+        ImageButtonA.setOnClickListener {
+            val intent = Intent(this@Liatproses2Activity, Suratproses2Activity::class.java)
+            startActivity(intent)
         }
+
+        val ImageButtonB = findViewById<ImageButton>(R.id.back)
+
+        ImageButtonB.setOnClickListener {
+            val intent = Intent(this@Liatproses2Activity, Home2Activity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
