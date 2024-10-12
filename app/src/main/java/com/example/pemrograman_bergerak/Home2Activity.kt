@@ -24,5 +24,11 @@ class Home2Activity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val ImageButton1 = findViewById<ImageButton>(R.id.imageButton4)
+
+        ImageButton1.setOnClickListener {
+            val intent = Intent(this@Home2Activity, SuratlulusActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

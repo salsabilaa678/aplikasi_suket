@@ -1,5 +1,6 @@
 package com.example.pemrograman_bergerak
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
@@ -8,16 +9,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Suratproses2Activity : AppCompatActivity() {
+class SuratlulusActivity : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_suratproses2)
+        setContentView(R.layout.activity_suratlulus)
 
-        val ImageButtonC = findViewById<ImageButton>(R.id.image67)
+        val ImageButtonD = findViewById<ImageButton>(R.id.imageback)
 
-        ImageButtonC.setOnClickListener {
-            val intent = Intent(this@Suratproses2Activity, Liatproses2Activity::class.java)
+        ImageButtonD.setOnClickListener {
+            val intent = Intent(this@SuratlulusActivity, Home2Activity::class.java)
             startActivity(intent)
         }
     }
