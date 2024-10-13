@@ -3,6 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FormuliraktifActivity">
@@ -23,10 +25,12 @@
         android:id="@+id/imageView28"
         android:layout_width="479dp"
         android:layout_height="735dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/frameformulir"
-        tools:layout_editor_absoluteY="156dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/frameformulir" />
 
     <TextView
         android:id="@+id/textView13"
@@ -226,8 +230,8 @@
 
     <EditText
         android:id="@+id/editTextText4"
-        android:layout_width="372dp"
-        android:layout_height="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="#DEE1E7"
         android:hint="+62"
         android:padding="10dp"

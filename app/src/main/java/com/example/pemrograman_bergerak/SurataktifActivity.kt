@@ -1,6 +1,8 @@
 package com.example.pemrograman_bergerak
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +13,12 @@ class SurataktifActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_surataktif)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val DaftarButton1 = findViewById<Button>(R.id.buttonW1)
+
+        DaftarButton1.setOnClickListener {
+            val intent = Intent(this@SurataktifActivity, FormuliraktifActivity::class.java)
+            startActivity(intent)
         }
     }
 }

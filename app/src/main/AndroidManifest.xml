@@ -13,9 +13,6 @@
         android:theme="@style/Theme.Pemrograman_bergerak"
         tools:targetApi="31">
         <activity
-            android:name=".Formuliraktif2Activity"
-            android:exported="false" />
-        <activity
             android:name=".FormuliraktifActivity"
             android:exported="false" />
         <activity
