@@ -8,13 +8,13 @@
     tools:context=".Liatproses2Activity">
 
     <ImageView
-        android:id="@+id/imageView01"
-        android:layout_width="450dp"
+        android:id="@+id/imageView17"
+        android:layout_width="464dp"
         android:layout_height="211dp"
-        android:layout_marginBottom="724dp"
+        android:layout_marginBottom="716dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/img31" />
 
@@ -23,6 +23,7 @@
         android:layout_width="68dp"
         android:layout_height="69dp"
         android:background="#4A8CC4"
+        android:contentDescription="back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.017"
@@ -30,12 +31,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.037"
         app:srcCompat="@drawable/back" />
+
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewditolak"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rincian Ditolak"
-        android:textColor="#FFFFFF"
+        android:textColor="#4A8CC4"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,10 +51,10 @@
         android:id="@+id/imageViewpengajuantolak"
         android:layout_width="400dp"
         android:layout_height="130dp"
-        android:layout_marginBottom="604dp"
+        android:layout_marginBottom="512dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/pengajuanditolak" />
 
@@ -69,16 +71,16 @@
         app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.305" />
+        app:layout_constraintVertical_bias="0.334" />
 
     <ImageView
         android:id="@+id/admin"
         android:layout_width="250dp"
         android:layout_height="110dp"
-        android:layout_marginBottom="512dp"
+        android:layout_marginBottom="484dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintHorizontal_bias="0.185"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/admin" />
 
@@ -86,21 +88,22 @@
         android:id="@+id/alasanditolak"
         android:layout_width="334dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="492dp"
+        android:layout_marginBottom="464dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/alasanditolak" />
 
     <ImageView
-        android:id="@+id/alasanditolak"
+        android:id="@+id/detailalasanditolak"
         android:layout_width="410dp"
         android:layout_height="470dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/rincianditolak" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
