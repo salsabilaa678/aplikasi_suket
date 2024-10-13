@@ -112,7 +112,7 @@
         app:layout_constraintVertical_bias="0.689" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonA1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#3672A4"
@@ -190,6 +190,18 @@
         app:layout_constraintVertical_bias="0.994"
         app:srcCompat="@drawable/nilai" />
 
+    <ImageButton
+        android:id="@+id/image_012"
+        android:layout_width="36dp"
+        android:layout_height="38dp"
+        android:background="#3B79AC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/bell" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
