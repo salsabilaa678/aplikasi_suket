@@ -41,7 +41,7 @@
         app:layout_constraintHorizontal_bias="0.365"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.037" />
+        app:layout_constraintVertical_bias="0.077" />
 
     <TextView
         android:id="@+id/textView23"
@@ -56,7 +56,7 @@
         app:layout_constraintHorizontal_bias="0.633"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.037" />
+        app:layout_constraintVertical_bias="0.077" />
 
     <ImageButton
         android:id="@+id/ButtonImageB8"
@@ -73,17 +73,17 @@
         app:layout_constraintVertical_bias="0.064"
         app:srcCompat="@drawable/back" />
 
+
     <ImageView
         android:id="@+id/imageView20"
-        android:layout_width="236dp"
-        android:layout_height="179dp"
-        android:layout_marginTop="184dp"
+        android:layout_width="296dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="216dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/isitext" />
-
 
     <TextView
         android:id="@+id/textView5"
@@ -95,15 +95,15 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintHorizontal_bias="0.331"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.173" />
+        app:layout_constraintVertical_bias="0.259" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="222dp"
-        android:layout_height="91dp"
+        android:layout_width="232dp"
+        android:layout_height="93dp"
         android:contentDescription="Deskripsi transkrip nilai, menjelaskan bahwa ini adalah dokumen yang mencatat semua mata kuliah dan nilai mahasiswa."
         android:justificationMode="inter_word"
         android:padding="8dp"
@@ -112,11 +112,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintHorizontal_bias="0.173"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.324" />
-
+        app:layout_constraintVertical_bias="0.33" />
 
     <Button
         android:id="@+id/buttonajukantranskrip"
@@ -127,10 +126,10 @@
         android:text="Ajukan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
+        app:layout_constraintVertical_bias="0.424" />
 
     <ImageView
         android:id="@+id/imageView24"
@@ -141,7 +140,7 @@
         app:layout_constraintHorizontal_bias="0.966"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.276"
+        app:layout_constraintVertical_bias="0.33"
         app:srcCompat="@drawable/stikertranskrip" />
 
     <ImageView
@@ -153,22 +152,8 @@
         app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.646"
+        app:layout_constraintVertical_bias="0.578"
         app:srcCompat="@drawable/syarat" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="65dp"
-        android:layout_height="29dp"
-        android:text="Syarat"
-        android:textColor="#FFC727"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.591" />
 
     <TextView
         android:id="@+id/textView7"
@@ -182,7 +167,21 @@
         app:layout_constraintHorizontal_bias="0.443"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643" />
+        app:layout_constraintVertical_bias="0.584" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="65dp"
+        android:layout_height="29dp"
+        android:text="Syarat"
+        android:textColor="#FFC727"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
 
     <ImageView
         android:id="@+id/imageView26"
@@ -193,8 +192,22 @@
         app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.844"
+        app:layout_constraintVertical_bias="0.741"
         app:srcCompat="@drawable/syarat" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Siapkan seluruh persyaratan\n2. Isi formulir pengajuan surat keterangan aktif\n3. Tunggu selama 3 hari kerja\n4. Cek secara berkala"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743" />
 
     <TextView
         android:id="@+id/textView14"
@@ -209,20 +222,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.77" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1. Siapkan seluruh persyaratan\n2. Isi formulir pengajuan surat keterangan aktif\n3. Tunggu selama 3 hari kerja\n4. Cek secara berkala"
-        android:textColor="#ffffff"
-        android:textSize="11sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.278"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.84" />
+        app:layout_constraintVertical_bias="0.689" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
