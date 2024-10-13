@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rincian Ditolak"
-        android:textColor="#4A8CC4"
+        android:textColor="#ffff"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,18 +45,29 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintVertical_bias="0.06" />
 
     <ImageView
         android:id="@+id/imageViewpengajuantolak"
-        android:layout_width="400dp"
-        android:layout_height="130dp"
-        android:layout_marginBottom="512dp"
+        android:layout_width="372dp"
+        android:layout_height="117dp"
+        android:layout_marginBottom="628dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/pengajuanditolak" />
+
+    <ImageView
+        android:id="@+id/admin"
+        android:layout_width="250dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="528dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/admin" />
 
     <TextView
         android:id="@+id/textView"
@@ -68,30 +79,19 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.334" />
-
-    <ImageView
-        android:id="@+id/admin"
-        android:layout_width="250dp"
-        android:layout_height="110dp"
-        android:layout_marginBottom="484dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.185"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/admin" />
+        app:layout_constraintVertical_bias="0.288" />
 
     <ImageView
         android:id="@+id/alasanditolak"
         android:layout_width="334dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="464dp"
+        android:layout_marginBottom="484dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/alasanditolak" />
 
@@ -99,7 +99,7 @@
         android:id="@+id/detailalasanditolak"
         android:layout_width="410dp"
         android:layout_height="470dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
