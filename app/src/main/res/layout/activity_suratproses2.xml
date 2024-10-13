@@ -48,9 +48,11 @@
 
     <ImageButton
         android:id="@+id/image67"
-        android:layout_width="47dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
         android:background="#4A8CC4"
+        android:contentDescription="back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.09"
@@ -82,7 +84,7 @@
         app:srcCompat="@drawable/kotak" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imageView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -94,7 +96,7 @@
         app:srcCompat="@drawable/kotak" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imageView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -106,7 +108,7 @@
         app:srcCompat="@drawable/kotak" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imageView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -130,7 +132,7 @@
         app:srcCompat="@drawable/task" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/imageView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -142,7 +144,7 @@
         app:srcCompat="@drawable/task" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/imageView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -154,7 +156,7 @@
         app:srcCompat="@drawable/task" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/imageView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -166,7 +168,7 @@
         app:srcCompat="@drawable/task" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/imageView26"
         android:layout_width="29dp"
         android:layout_height="21dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -214,7 +216,7 @@
         app:srcCompat="@drawable/img13" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/imageView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -226,7 +228,7 @@
         app:srcCompat="@drawable/img14" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/imageView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

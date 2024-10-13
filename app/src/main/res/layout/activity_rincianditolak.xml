@@ -23,6 +23,7 @@
         android:layout_width="68dp"
         android:layout_height="69dp"
         android:background="#4A8CC4"
+        android:contentDescription="back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.017"
@@ -32,11 +33,11 @@
         app:srcCompat="@drawable/back" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewditolak"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rincian Ditolak"
-        android:textColor="#FFFFFF"
+        android:textColor="#4A8CC4"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,9 +51,10 @@
         android:id="@+id/imageViewpengajuantolak"
         android:layout_width="400dp"
         android:layout_height="130dp"
-        android:layout_marginBottom="580dp"
+        android:layout_marginBottom="512dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/pengajuanditolak" />
 
@@ -94,7 +96,7 @@
         app:srcCompat="@drawable/alasanditolak" />
 
     <ImageView
-        android:id="@+id/alasanditolak"
+        android:id="@+id/detailalasanditolak"
         android:layout_width="410dp"
         android:layout_height="470dp"
         android:layout_marginBottom="10dp"
