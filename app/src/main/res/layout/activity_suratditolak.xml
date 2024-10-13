@@ -20,8 +20,10 @@
 
     <ImageButton
         android:id="@+id/imagebacksuratditolak"
-        android:layout_width="45dp"
-        android:layout_height="62dp"
+        android:contentDescription="logo surat diterima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
         android:background="#4A8CC4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,19 +78,21 @@
 
     <Button
         android:id="@+id/Button_T1k"
-        android:layout_width="71dp"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:backgroundTint="#E5F6FF"
         android:padding="12dp"
         android:text="Lihat"
         android:textColor="#143C5E"
-        android:textSize="10dp"
+        android:textSize="10sp"
         android:textStyle="bold"
+        android:contentDescription="Tampilkan informasi lebih lanjut"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.891"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.254" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
