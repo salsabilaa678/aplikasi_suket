@@ -11,9 +11,10 @@
         android:id="@+id/imageView01"
         android:layout_width="420dp"
         android:layout_height="211dp"
-        android:layout_marginBottom="676dp"
+        android:layout_marginBottom="724dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/img31" />
 
