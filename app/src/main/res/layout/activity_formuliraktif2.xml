@@ -191,7 +191,7 @@
         android:backgroundTint="#03456F"
         android:text="Jelajahi"
         tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="611dp" />
+        tools:layout_editor_absoluteY="619dp" />
 
     <TextView
         android:id="@+id/textView28"
@@ -205,7 +205,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61" />
+        app:layout_constraintVertical_bias="0.621" />
 
     <ImageView
         android:id="@+id/imageView47"

@@ -12,10 +12,11 @@
 
     <ImageView
         android:id="@+id/imageView27"
-        android:layout_width="541dp"
-        android:layout_height="291dp"
+        android:layout_width="728dp"
+        android:layout_height="276dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -233,7 +234,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#DEE1E7"
-        android:hint="+62"
+        android:hint="081234567890"
         android:padding="10dp"
         android:textColor="#7D8BB7"
         android:textSize="16sp"
