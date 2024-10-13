@@ -78,21 +78,21 @@
 
     <Button
         android:id="@+id/Button_T1k"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_width="78dp"
+        android:layout_height="49dp"
         android:backgroundTint="#E5F6FF"
+        android:contentDescription="Tampilkan informasi lebih lanjut"
         android:padding="12dp"
         android:text="Lihat"
         android:textColor="#143C5E"
         android:textSize="10sp"
         android:textStyle="bold"
-        android:contentDescription="Tampilkan informasi lebih lanjut"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintHorizontal_bias="0.909"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.254" />
+        app:layout_constraintVertical_bias="0.274" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
