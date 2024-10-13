@@ -168,7 +168,7 @@
         android:layout_width="372dp"
         android:layout_height="37dp"
         android:background="#DEE1E7"
-        android:hint="Dayana Khoiriyah Harahap"
+        android:hint="Aruni"
         android:padding="10dp"
         android:textColor="#7D8BB7"
         android:textSize="16sp"
