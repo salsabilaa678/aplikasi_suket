@@ -21,5 +21,12 @@ class SuratDitolakActivity : AppCompatActivity() {
             val intent = Intent(this@SuratDitolakActivity, RincianditolakActivity::class.java)
             startActivity(intent)
         }
+        val ImageButton1 = findViewById<ImageButton>(R.id.back)
+
+        ImageButton1.setOnClickListener {
+            val intent = Intent(this@SuratDitolakActivity, Home2Activity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

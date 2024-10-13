@@ -22,13 +22,31 @@
             android:name=".SuratlulusActivity"
             android:exported="false" />
         <activity
-            android:name=".SurataktifActivity"
-            android:exported="false" />
-        <activity
             android:name=".Liatproses2Activity"
             android:exported="false" />
         <activity
+            android:name=".NotifikasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SurataktifActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RincianditolakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuratDitolakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuratSelesaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TranskripNilaiActivity"
+            android:exported="false" />
+        <activity
             android:name=".Suratproses2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Formuliraktif2Activity"
             android:exported="false" />
         <activity
             android:name=".Home2Activity"
