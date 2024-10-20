@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/imageView36"
-        android:layout_width="650dp"
+        android:layout_width="687dp"
         android:layout_height="262dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +25,7 @@
         android:layout_height="737dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView36"
         app:layout_constraintVertical_bias="1.0"
@@ -221,6 +222,104 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView36"
         app:layout_constraintVertical_bias="0.577" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="376dp"
+        android:layout_height="23dp"
+        android:text="Untuk Keperluan :"
+        android:textColor="#7D8BB7"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView36"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="376dp"
+        android:layout_height="23dp"
+        android:text="Daftar Sidang"
+        android:textColor="#7D8BB7"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView36"
+        app:layout_constraintVertical_bias="0.675" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="376dp"
+        android:layout_height="23dp"
+        android:text="Daftar Kerja Peraktik"
+        android:textColor="#7D8BB7"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView36"
+        app:layout_constraintVertical_bias="0.711" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="376dp"
+        android:layout_height="23dp"
+        android:text="Konversi Nilai"
+        android:textColor="#7D8BB7"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView36"
+        app:layout_constraintVertical_bias="0.746" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="376dp"
+        android:layout_height="23dp"
+        android:text="Daftar Yudisium/wisuda"
+        android:textColor="#7D8BB7"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView36"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="376dp"
+        android:layout_height="23dp"
+        android:text="Daftar Beasiswa"
+        android:textColor="#7D8BB7"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView36"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="376dp"
+        android:layout_height="23dp"
+        android:text="Drop Out/Pindah Kampus/Mengundurkan diri"
+        android:textColor="#7D8BB7"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView36"
+        app:layout_constraintVertical_bias="0.857" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
