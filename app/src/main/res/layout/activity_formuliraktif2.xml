@@ -269,8 +269,8 @@
 
     <Button
         android:id="@+id/button5o"
-        android:layout_width="271dp"
-        android:layout_height="51dp"
+        android:layout_width="315dp"
+        android:layout_height="60dp"
         android:backgroundTint="#FFC727"
         android:text="Selanjutnya"
         app:layout_constraintBottom_toBottomOf="parent"

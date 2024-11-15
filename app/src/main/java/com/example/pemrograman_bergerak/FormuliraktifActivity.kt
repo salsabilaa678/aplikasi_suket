@@ -27,7 +27,7 @@ class FormuliraktifActivity : AppCompatActivity() {
         val imagebutton1 = findViewById<ImageButton>(R.id.back)
 
         imagebutton1.setOnClickListener {
-            val intent = Intent(this@FormuliraktifActivity, Home2Activity::class.java)
+            val intent = Intent(this@FormuliraktifActivity, SurataktifActivity::class.java)
             startActivity(intent)
         }
 

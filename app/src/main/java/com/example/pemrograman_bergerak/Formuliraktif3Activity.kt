@@ -3,6 +3,7 @@ package com.example.pemrograman_bergerak
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -19,6 +20,13 @@ class Formuliraktif3Activity : AppCompatActivity() {
         val imageButton1 = findViewById<ImageButton>(R.id.back)
 
         imageButton1.setOnClickListener {
+            val intent = Intent(this@Formuliraktif3Activity, Formuliraktif2Activity::class.java)
+            startActivity(intent)
+        }
+
+        val Button2 = findViewById<Button>(R.id.buttonN)
+
+        Button2.setOnClickListener {
             val intent = Intent(this@Formuliraktif3Activity, Home2Activity::class.java)
             startActivity(intent)
         }

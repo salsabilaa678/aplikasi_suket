@@ -43,6 +43,19 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/frameformulir" />
 
+    <Button
+        android:id="@+id/buttonN"
+        android:layout_width="315dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFC727"
+        android:text="Selesai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
+
     <ImageView
         android:id="@+id/imageView63"
         android:layout_width="wrap_content"
@@ -181,9 +194,9 @@
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="372dp"
-        android:layout_height="37dp"
-        android:background="#DEE1E7"
+        android:layout_width="370dp"
+        android:layout_height="44dp"
+        android:background="@drawable/rounded_edittext"
         android:hint="Aruni"
         android:padding="10dp"
         android:textColor="#7D8BB7"
@@ -225,9 +238,9 @@
 
     <EditText
         android:id="@+id/editTextText6"
-        android:layout_width="372dp"
-        android:layout_height="37dp"
-        android:background="#DEE1E7"
+        android:layout_width="370dp"
+        android:layout_height="44dp"
+        android:background="@drawable/rounded_edittext"
         android:hint="09031282227087"
         android:padding="10dp"
         android:textColor="#7D8BB7"
@@ -241,9 +254,9 @@
 
     <EditText
         android:id="@+id/editTextText7"
-        android:layout_width="372dp"
-        android:layout_height="37dp"
-        android:background="#DEE1E7"
+        android:layout_width="370dp"
+        android:layout_height="44dp"
+        android:background="@drawable/rounded_edittext"
         android:hint="081234567890"
         android:padding="10dp"
         android:textColor="#7D8BB7"
@@ -271,9 +284,9 @@
 
     <EditText
         android:id="@+id/editTextText8"
-        android:layout_width="372dp"
-        android:layout_height="37dp"
-        android:background="#DEE1E7"
+        android:layout_width="370dp"
+        android:layout_height="44dp"
+        android:background="@drawable/rounded_edittext"
         android:hint="09031282227087"
         android:padding="10dp"
         android:textColor="#7D8BB7"
@@ -321,54 +334,6 @@
         app:layout_constraintVertical_bias="0.87"
         app:srcCompat="@drawable/cekberkas" />
 
-    <ImageView
-        android:id="@+id/imageView55"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.986"
-        app:srcCompat="@drawable/cekberkas" />
-
-    <ImageView
-        android:id="@+id/imageView56"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView55"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.181"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.744"
-        app:srcCompat="@drawable/icontranskip" />
-
-    <ImageView
-        android:id="@+id/imageView57"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView55"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.181"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.849"
-        app:srcCompat="@drawable/icontranskip" />
-
-    <ImageView
-        android:id="@+id/imageView58"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.181"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.951"
-        app:srcCompat="@drawable/icontranskip" />
-
     <TextView
         android:id="@+id/textView32"
         android:layout_width="wrap_content"
@@ -399,21 +364,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.833" />
 
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SPP.pdf"
-        android:textColor="#255984"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView36"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.339"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.943" />
-
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
@@ -425,7 +375,7 @@
         app:layout_constraintHorizontal_bias="0.758"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintVertical_bias="0.74" />
 
     <Button
         android:id="@+id/button7"
@@ -440,16 +390,27 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.849" />
 
-    <Button
-        android:id="@+id/button8"
+    <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#03456F"
-        android:text="Lihat"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView55"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintHorizontal_bias="0.155"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
+        app:layout_constraintVertical_bias="0.733"
+        app:srcCompat="@drawable/icontranskip" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838"
+        app:srcCompat="@drawable/icontranskip" />
 </androidx.constraintlayout.widget.ConstraintLayout>

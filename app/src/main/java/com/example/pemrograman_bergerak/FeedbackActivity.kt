@@ -1,8 +1,10 @@
 package com.example.pemrograman_bergerak
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.RatingBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -39,6 +41,14 @@ class FeedbackActivity : AppCompatActivity() {
                 ratingBar.rating = 0f
                 edtFeedback.setText("")
             }
+
         }
+        val imagebutton1 = findViewById<ImageButton>(R.id.back)
+
+        imagebutton1.setOnClickListener {
+            val intent = Intent(this@FeedbackActivity, Home2Activity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

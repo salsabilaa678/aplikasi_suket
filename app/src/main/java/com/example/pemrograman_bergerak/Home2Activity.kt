@@ -69,5 +69,13 @@ class Home2Activity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val ImageButton5 = findViewById<ImageButton>(R.id.imageFb3)
+
+        ImageButton5.setOnClickListener {
+            val intent = Intent(this@Home2Activity, FeedbackActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }

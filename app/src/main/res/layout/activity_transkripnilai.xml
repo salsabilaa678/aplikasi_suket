@@ -118,7 +118,7 @@
         app:layout_constraintVertical_bias="0.33" />
 
     <Button
-        android:id="@+id/buttonajukantranskrip"
+        android:id="@+id/btn"
         android:layout_width="109dp"
         android:layout_height="43dp"
         android:backgroundTint="@android:color/holo_orange_light"
@@ -153,7 +153,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.578"
-        app:srcCompat="@drawable/syarat" />
+        app:srcCompat="@drawable/bgr" />
 
     <TextView
         android:id="@+id/textView7"
@@ -193,7 +193,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.741"
-        app:srcCompat="@drawable/syarat" />
+        app:srcCompat="@drawable/bgr" />
 
     <TextView
         android:id="@+id/textView11"
