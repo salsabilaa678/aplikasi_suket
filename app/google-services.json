@@ -1,13 +1,9 @@
 {
   "project_info": {
-    "project_number": "810397334122",
-    "project_id": "caca0604",
-    "storage_bucket": "caca0604.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:810397334122:android:00b9f011254b68761be813",
         "android_client_info": {
           "package_name": "com.example.pemrograman_bergerak"
         }
@@ -15,7 +11,6 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCPcCfO2FMydQmt0o3e8KErH2rOA-IeXYg"
         }
       ],
       "services": {
