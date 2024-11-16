@@ -6,12 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/img1"
-    tools:ignore="ExtraText">
     tools:context=".MainActivity">
 
+    <!-- Tombol Login -->
 
     <Button
-        android:id="@+id/btndaftar"
+        android:id="@+id/btnLogin"
         android:layout_width="370dp"
         android:layout_height="58dp"
         android:backgroundTint="#ffffff"
@@ -25,5 +25,24 @@
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551" />
+        app:layout_constraintVertical_bias="0.546" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="370dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#ffffff"
+        android:padding="12dp"
+        android:text="DAFTAR"
+        android:textColor="#3672A4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnLogin"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
