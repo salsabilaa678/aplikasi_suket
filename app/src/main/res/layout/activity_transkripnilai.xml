@@ -95,27 +95,27 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintHorizontal_bias="0.301"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.259" />
+        app:layout_constraintVertical_bias="0.269" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="232dp"
-        android:layout_height="93dp"
+        android:layout_width="215dp"
+        android:layout_height="89dp"
         android:contentDescription="Deskripsi transkrip nilai, menjelaskan bahwa ini adalah dokumen yang mencatat semua mata kuliah dan nilai mahasiswa."
-        android:justificationMode="inter_word"
+        android:gravity="center"
         android:padding="8dp"
         android:text="Transkrip nilai adalah dokumen yang memuat catatan semua mata kuliah dan nilai mahasiswa."
         android:textColor="#7D8BB7"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.33" />
+        app:layout_constraintVertical_bias="0.331" />
 
     <Button
         android:id="@+id/btn"

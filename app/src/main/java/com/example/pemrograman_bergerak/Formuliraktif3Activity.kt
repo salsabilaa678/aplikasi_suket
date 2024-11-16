@@ -23,12 +23,12 @@ class Formuliraktif3Activity : AppCompatActivity() {
             val intent = Intent(this@Formuliraktif3Activity, Formuliraktif2Activity::class.java)
             startActivity(intent)
         }
-
         val Button2 = findViewById<Button>(R.id.buttonN)
 
         Button2.setOnClickListener {
-            val intent = Intent(this@Formuliraktif3Activity, Home2Activity::class.java)
+            val intent = Intent(this@Formuliraktif3Activity, TranskripdoneMain2Activity::class.java)
             startActivity(intent)
         }
+
     }
 }

@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView36"
-        android:layout_width="958dp"
-        android:layout_height="272dp"
+        android:layout_width="1182dp"
+        android:layout_height="476dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -21,8 +21,8 @@
 
     <ImageView
         android:id="@+id/imageView48"
-        android:layout_width="409dp"
-        android:layout_height="737dp"
+        android:layout_width="418dp"
+        android:layout_height="740dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -59,13 +59,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.092" />
 
-    <ImageView
-        android:id="@+id/imageView49"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/back"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="61dp" />
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="68dp"
+        android:layout_height="69dp"
+        android:background="#4A8CC4"
+        android:contentDescription="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069"
+        app:srcCompat="@drawable/back" />
 
     <ImageView
         android:id="@+id/imageView50"
@@ -103,20 +109,6 @@
         app:layout_constraintVertical_bias="0.219"
         app:srcCompat="@drawable/dua" />
 
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="376dp"
-        android:layout_height="23dp"
-        android:text="Nama"
-        android:textColor="#7D8BB7"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView36"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView48"
-        app:layout_constraintVertical_bias="1.0" />
-
     <EditText
         android:id="@+id/editTextText9"
         android:layout_width="372dp"
@@ -128,16 +120,16 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView36"
-        app:layout_constraintVertical_bias="0.306" />
+        app:layout_constraintVertical_bias="0.324" />
 
     <TextView
         android:id="@+id/textView35"
         android:layout_width="376dp"
         android:layout_height="23dp"
-        android:text="Nim"
+        android:text="NIM"
         android:textColor="#7D8BB7"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -145,7 +137,21 @@
         app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView36"
-        app:layout_constraintVertical_bias="0.366" />
+        app:layout_constraintVertical_bias="0.375" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="376dp"
+        android:layout_height="23dp"
+        android:text="Nama"
+        android:textColor="#7D8BB7"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView36"
+        app:layout_constraintVertical_bias="0.293" />
 
     <EditText
         android:id="@+id/editTextText10"
@@ -161,7 +167,7 @@
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView36"
-        app:layout_constraintVertical_bias="0.399" />
+        app:layout_constraintVertical_bias="0.409" />
 
     <TextView
         android:id="@+id/textView36"
@@ -205,7 +211,7 @@
         app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView36"
-        app:layout_constraintVertical_bias="0.541" />
+        app:layout_constraintVertical_bias="0.537" />
 
     <EditText
         android:id="@+id/editTextText12"
@@ -221,7 +227,7 @@
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView36"
-        app:layout_constraintVertical_bias="0.577" />
+        app:layout_constraintVertical_bias="0.572" />
 
     <TextView
         android:id="@+id/textView41"
@@ -237,8 +243,8 @@
         app:layout_constraintTop_toTopOf="@+id/imageView36"
         app:layout_constraintVertical_bias="0.635" />
 
-    <TextView
-        android:id="@+id/textView46"
+    <CheckBox
+        android:id="@+id/checkBox1"
         android:layout_width="376dp"
         android:layout_height="23dp"
         android:text="Daftar Sidang"
@@ -251,11 +257,11 @@
         app:layout_constraintTop_toTopOf="@+id/imageView36"
         app:layout_constraintVertical_bias="0.675" />
 
-    <TextView
-        android:id="@+id/textView47"
+    <CheckBox
+        android:id="@+id/checkBox2"
         android:layout_width="376dp"
         android:layout_height="23dp"
-        android:text="Daftar Kerja Peraktik"
+        android:text="Daftar Kerja Praktik"
         android:textColor="#7D8BB7"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -265,8 +271,8 @@
         app:layout_constraintTop_toTopOf="@+id/imageView36"
         app:layout_constraintVertical_bias="0.711" />
 
-    <TextView
-        android:id="@+id/textView48"
+    <CheckBox
+        android:id="@+id/checkBox3"
         android:layout_width="376dp"
         android:layout_height="23dp"
         android:text="Konversi Nilai"
@@ -279,11 +285,11 @@
         app:layout_constraintTop_toTopOf="@+id/imageView36"
         app:layout_constraintVertical_bias="0.746" />
 
-    <TextView
-        android:id="@+id/textView49"
+    <CheckBox
+        android:id="@+id/checkBox4"
         android:layout_width="376dp"
         android:layout_height="23dp"
-        android:text="Daftar Yudisium/wisuda"
+        android:text="Daftar Yudisium/Wisuda"
         android:textColor="#7D8BB7"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -293,8 +299,8 @@
         app:layout_constraintTop_toTopOf="@+id/imageView36"
         app:layout_constraintVertical_bias="0.782" />
 
-    <TextView
-        android:id="@+id/textView50"
+    <CheckBox
+        android:id="@+id/checkBox5"
         android:layout_width="376dp"
         android:layout_height="23dp"
         android:text="Daftar Beasiswa"
@@ -307,11 +313,11 @@
         app:layout_constraintTop_toTopOf="@+id/imageView36"
         app:layout_constraintVertical_bias="0.819" />
 
-    <TextView
-        android:id="@+id/textView51"
+    <CheckBox
+        android:id="@+id/checkBox6"
         android:layout_width="376dp"
         android:layout_height="23dp"
-        android:text="Drop Out/Pindah Kampus/Mengundurkan diri"
+        android:text="Drop Out/Pindah Kampus/Mengundurkan Diri"
         android:textColor="#7D8BB7"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -320,6 +326,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView36"
         app:layout_constraintVertical_bias="0.857" />
+
+    <Button
+        android:id="@+id/Button12"
+        android:layout_width="315dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFC727"
+        android:text="Selanjutnya"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.633"
+        app:srcCompat="@drawable/dekor1" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832"
+        app:srcCompat="@drawable/dekor2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

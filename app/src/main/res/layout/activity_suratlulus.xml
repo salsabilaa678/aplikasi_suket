@@ -98,6 +98,7 @@
         app:layout_constraintVertical_bias="0.299"
         app:srcCompat="@drawable/isitext" />
 
+
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
@@ -108,28 +109,27 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintHorizontal_bias="0.242"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.265" />
 
-
     <TextView
         android:id="@+id/textViewdeskripsi"
-        android:layout_width="178dp"
-        android:layout_height="wrap_content"
+        android:layout_width="199dp"
+        android:layout_height="77dp"
         android:contentDescription="Deskripsi Surat Keterangan Lulus"
-        android:justificationMode="inter_word"
+        android:gravity="center"
         android:lineSpacingExtra="2dp"
         android:text="Surat Keterangan Lulus merupakan dokumen yang diterbitkan dengan tujuan untuk menerangkan jika mahasiswa yang bersangkutan sudah menyelesaikan masa studinya di sekolah atau perguruan tinggi."
         android:textColor="#7D8BB7"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintHorizontal_bias="0.123"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.315" />
+        app:layout_constraintVertical_bias="0.314" />
 
     <Button
         android:id="@+id/button"

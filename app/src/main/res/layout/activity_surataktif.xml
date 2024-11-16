@@ -37,7 +37,7 @@
         android:id="@+id/imageView19"
         android:layout_width="446dp"
         android:layout_height="888dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="124dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,11 +79,11 @@
         android:id="@+id/imageView20"
         android:layout_width="302dp"
         android:layout_height="196dp"
-        android:layout_marginTop="192dp"
+        android:layout_marginEnd="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263"
         app:srcCompat="@drawable/isitext" />
 
     <Button
@@ -95,10 +95,10 @@
         android:text="Ajukan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintHorizontal_bias="0.294"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.391" />
+        app:layout_constraintVertical_bias="0.386" />
 
     <TextView
         android:id="@+id/textView5"
@@ -110,38 +110,38 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintHorizontal_bias="0.291"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.238" />
+        app:layout_constraintVertical_bias="0.233" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="233dp"
         android:layout_height="94dp"
         android:contentDescription="Surat keterangan aktif kuliah menjelaskan status aktif mahasiswa."
-        android:justificationMode="inter_word"
+        android:gravity="center"
         android:lineSpacingExtra="2dp"
         android:text="Surat keterangan aktif kuliah adalah surat keterangan yang menjelaskan bahwa mahasiswa berstatus aktif mengikuti perkuliahan di semester tertentu."
         android:textColor="#7D8BB7"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.308" />
+        app:layout_constraintVertical_bias="0.293" />
 
     <ImageView
         android:id="@+id/imageView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="144dp"
+        android:layout_height="145dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.296"
+        app:layout_constraintVertical_bias="0.268"
         app:srcCompat="@drawable/stikeraktif" />
 
     <ImageView

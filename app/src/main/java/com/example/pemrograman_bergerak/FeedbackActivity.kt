@@ -1,5 +1,6 @@
 package com.example.pemrograman_bergerak
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -16,6 +17,7 @@ class FeedbackActivity : AppCompatActivity() {
     private lateinit var edtFeedback: EditText
     private lateinit var btnSubmit: Button
 
+    @SuppressLint("CutPasteId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_feedback) // Menyambungkan dengan layout activity_feedback.xml
@@ -50,5 +52,11 @@ class FeedbackActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val button1 = findViewById<Button>(R.id.btnSubmit)
+
+        button1.setOnClickListener {
+            val intent = Intent(this@FeedbackActivity, Feedback2Main2Activity::class.java)
+            startActivity(intent)
+        }
     }
 }
