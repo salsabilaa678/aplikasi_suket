@@ -9,6 +9,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.widget.TextView
+
 
 class Home2Activity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -16,6 +18,14 @@ class Home2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_home2)
+
+        // Ambil data email dari Intent
+        val userEmail = intent.getStringExtra("user_email")
+
+        // Referensi ke TextView yang akan diubah
+        val tvUserName = findViewById<TextView>(R.id.textView3)
+        // Ubah teks TextView sesuai dengan email pengguna
+        tvUserName.text = userEmail ?: "Aruni" // Gunakan "Aruni" sebagai teks default jika email tidak tersedia
 
         // Cari tombol daftar dengan ID
         val daftarButton = findViewById<Button>(R.id.button2)
