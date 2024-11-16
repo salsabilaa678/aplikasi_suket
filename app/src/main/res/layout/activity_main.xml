@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img1">
+    android:background="@drawable/img1"
+    tools:ignore="ExtraText">
     tools:context=".MainActivity">
 
 
@@ -15,7 +16,7 @@
         android:layout_height="58dp"
         android:backgroundTint="#ffffff"
         android:padding="12dp"
-        android:text="DAFTAR"
+        android:text="LOGIN"
         android:textColor="#3672A4"
         android:textSize="18sp"
         android:textStyle="bold"
