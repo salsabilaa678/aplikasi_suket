@@ -48,4 +48,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.firebase.auth.ktx) // Firebase Authentication
     implementation(platform("com.google.firebase:firebase-bom:32.1.0")) // Gunakan BOM
+
 }
