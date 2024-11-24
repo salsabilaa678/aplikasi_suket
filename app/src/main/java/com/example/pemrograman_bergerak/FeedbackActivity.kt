@@ -9,6 +9,8 @@ import android.widget.ImageButton
 import android.widget.RatingBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.database.FirebaseDatabase
+
 
 class FeedbackActivity : AppCompatActivity() {
 
@@ -27,36 +29,49 @@ class FeedbackActivity : AppCompatActivity() {
         edtFeedback = findViewById(R.id.edtFeedback)
         btnSubmit = findViewById(R.id.btnSubmit)
 
-        // Set OnClickListener untuk tombol Kirim
         btnSubmit.setOnClickListener {
             val rating = ratingBar.rating
             val feedbackText = edtFeedback.text.toString()
 
             if (feedbackText.isEmpty()) {
-                // Jika teks feedback kosong, tampilkan toast
                 Toast.makeText(this, "Mohon isi pendapat Anda", Toast.LENGTH_SHORT).show()
             } else {
-                // Logika pengiriman rating dan feedback (misal menyimpan ke database atau server)
-                Toast.makeText(this, "Terima kasih atas feedback Anda!", Toast.LENGTH_SHORT).show()
+                // Referensi ke Firebase Database
+                val database = FirebaseDatabase.getInstance()
+                val feedbackRef = database.getReference("feedback")
 
-                // Reset setelah feedback dikirim
-                ratingBar.rating = 0f
-                edtFeedback.setText("")
+                // ID unik untuk setiap feedback
+                val feedbackId = feedbackRef.push().key
+
+                // Objek data feedback
+                val feedbackData = mapOf(
+                    "rating" to rating,
+                    "feedbackText" to feedbackText
+                )
+
+                // Simpan data ke Firebase
+                feedbackId?.let {
+                    feedbackRef.child(it).setValue(feedbackData)
+                        .addOnSuccessListener {
+                            Toast.makeText(
+                                this,
+                                "Terima kasih atas feedback Anda!",
+                                Toast.LENGTH_SHORT
+                            ).show()
+
+                            // Reset UI
+                            ratingBar.rating = 0f
+                            edtFeedback.setText("")
+                        }
+                        .addOnFailureListener { error ->
+                            Toast.makeText(
+                                this,
+                                "Gagal mengirim feedback: ${error.message}",
+                                Toast.LENGTH_SHORT
+                            ).show()
+                        }
+                }
             }
-
-        }
-        val imagebutton1 = findViewById<ImageButton>(R.id.back)
-
-        imagebutton1.setOnClickListener {
-            val intent = Intent(this@FeedbackActivity, Home2Activity::class.java)
-            startActivity(intent)
-        }
-
-        val button1 = findViewById<Button>(R.id.btnSubmit)
-
-        button1.setOnClickListener {
-            val intent = Intent(this@FeedbackActivity, Feedback2Main2Activity::class.java)
-            startActivity(intent)
         }
     }
 }
